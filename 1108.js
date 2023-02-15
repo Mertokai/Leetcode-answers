@@ -9,8 +9,6 @@ var defangIPaddr = function (address) {
   }
   return result.join("");
 };
-defangIPaddr("1.1.1.1");
-
 //Runtime
 //62 ms
 //Beats
