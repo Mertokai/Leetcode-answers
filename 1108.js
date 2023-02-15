@@ -7,6 +7,13 @@ var defangIPaddr = function (address) {
       result.push(address[i]);
     }
   }
-  console.log(result.join(""));
+  return result.join("");
 };
-defangIPaddr("1.1.1.1");
+// Runtime
+// 62 ms
+// Beats
+// 72.47%
+// Memory
+// 41.7 MB
+// Beats
+// 61.69%
